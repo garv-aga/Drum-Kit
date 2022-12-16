@@ -49,7 +49,7 @@ function makeSound(key)
     }
 }
 
-function buttonAnimaton(currentKey) {
+function buttonAnimation(currentKey) {
     var activeKey = document.querySelector("." + currentKey);
     activeKey.classList.add("pressed");
     setTimeout(function () {
